@@ -1,0 +1,27 @@
+{
+  "name": "node-oauth",
+  "version": "1.0.0",
+  "description": "NodeJS - Passport OAuth",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iMustafa/passport-oauth.git"
+  },
+  "author": "Mustafa Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iMustafa/passport-oauth/issues"
+  },
+  "homepage": "https://github.com/iMustafa/passport-oauth#readme",
+  "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}
